@@ -24,7 +24,7 @@ IMAGE_HEIGHT = 224
 IMAGE_CHANS = 3
 IMAGE_DTYPE = "float32"
 
-# 서버 queue 설정
+# 서버 queue/delay 설정
 IMAGE_QUEUE = "image_queue"
 BATCH_SIZE = 32
 SERVER_SLEEP = 0.25
